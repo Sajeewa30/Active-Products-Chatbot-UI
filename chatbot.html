@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+     <!-- Widget Configuration -->
+    <script>
+        window.ChatWidgetConfig = {
+            webhook: {
+                url: 'https://atd-test.app.n8n.cloud/webhook/837bf6b6-3b35-4ccd-a866-d9177f753ced/chat',
+                route: 'general'
+            },
+            branding: {
+                logo: '<your company logo URL>',
+                name: 'Active Products Inc.', // Your company name
+                welcomeText: 'Hi 👋, how can we help?', //Welcome message
+                responseTimeText: 'We typically respond right away' //Response time message
+            },
+            style: {
+                primaryColor: '#854fff', //Primary color
+                secondaryColor: '#6b3fd4', //Secondary color
+                position: 'right', //Position of the widget (left or right)
+                backgroundColor: '#ffffff', //Background color of the chat widget
+                fontColor: '#333333' //Text color for messages and interface
+            }
+        };
+    </script>
+
+    <script src="C:\Users\Sajeewa-Laptop\Desktop\AT Digital\Active Products Chatbot UI/chatbot_script.js">  //replace with your local path
+    </script>
+    <!-- Widget Script -->
+</body>
+</html>
